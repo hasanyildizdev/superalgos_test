@@ -87,10 +87,10 @@ function newVisualScritingFunctionLibraryUiObjectsFromNodes() {
                             totalPlugin = totalPlugin + project.pluginDataMines.pluginFiles.length
                             pluginAllTheseFiles(project.pluginDataMines.pluginFiles, 'Data-Mines')
                         }
-                        if (project.pluginTradingMines !== undefined) {
+/*                         if (project.pluginTradingMines !== undefined) {
                             totalPlugin = totalPlugin + project.pluginTradingMines.pluginFiles.length
                             pluginAllTheseFiles(project.pluginTradingMines.pluginFiles, 'Trading-Mines')
-                        }
+                        } */
                         if (project.pluginTradingSystems !== undefined) {
                             totalPlugin = totalPlugin + project.pluginTradingSystems.pluginFiles.length
                             pluginAllTheseFiles(project.pluginTradingSystems.pluginFiles, 'Trading-Systems')
